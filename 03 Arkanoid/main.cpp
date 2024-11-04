@@ -43,7 +43,7 @@ int main()
 
     x+=dx;
     for (int i=0;i<n;i++)
-		if ( FloatRect(x+3,y+3,6,6).intersects(block[i].getGlobalBounds()) ) 
+		if ( FloatRect(x+3,y+3,6,6).intersects(block[i].getGlobalBounds()) )
 		     {block[i].setPosition(-100,0); dx=-dx;}
 
     y+=dy;
